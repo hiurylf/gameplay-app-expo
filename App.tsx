@@ -8,8 +8,8 @@ import {
 } from '@expo-google-fonts/rajdhani';
 import AppLoading from 'expo-app-loading';
 
-import { SignIn } from 'pages/SignIn';
 import { Background } from 'components/Background';
+import Routes from 'routes/index';
 
 export default function App(): React.ReactElement {
   const [isFontsLoaded] = useFonts({
@@ -30,7 +30,7 @@ export default function App(): React.ReactElement {
         backgroundColor="transparent"
         translucent
       />
-      <SignIn />
+      <Routes />
     </Background>
   );
 }

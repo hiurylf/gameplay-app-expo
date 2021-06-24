@@ -54,11 +54,15 @@
       }
     ],
     "no-use-before-define": "off",
-    "camelcase": "off"
+    "camelcase": "off",
+    "react/require-default-props": "off"
   },
   "settings": {
     "import/resolver": {
       "typescript": {}
-    }
+    },
+    "import/core-modules": [
+      "@expo/vector-icons"
+    ]
   }
 }

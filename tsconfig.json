@@ -8,6 +8,8 @@
       "assets/*": ["./src/assets/*"],
       "global/*": ["./src/global/*"],
       "components/*": ["./src/components/*"],
+      "routes/*": ["./src/routes/*"],
+      "utils/*": ["./src/utils/*"],
     }
   },
 }
